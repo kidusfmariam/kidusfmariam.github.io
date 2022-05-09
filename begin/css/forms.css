@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fdffff;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #00162e;
+}
+p {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+[for="abtype"], [for="comments"]{
+	margin-top: 2rem;
+}
+
+fieldset{
+	border: 1px solid #fdffff;
+	border-radius: 5px;
+	margin-bottom: 2rem;
+}
+legend{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+
+}
+label{
+	display: block;
+}
+textarea{
+	height: 7rem;
+	padding: 1rem;
+
+}
+select{
+	font-size: 1rem;
+}
+button{
+	font-size: 1.2rem;
+	margin: 1rem 0;
+	padding: .3rem .5rem;
+	background-color: #ba8eb7;
+	color: black;
+	border: none;
+	border-radius: .3rem;
+	box-shadow: 10px 10px 10px black;
+	transition: .3s;
+}
+button:hover{
+	background-color: #fdffff;
+	color: #ba8eb7;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+	display: block;
+	margin-bottom: 1rem;
+	width: 20rem;
+	font-family: sans-serif;
+	font-size: 1rem;
+	padding: .4rem;
+	border-radius: 7px;
+	border: none;
+}
+
+iframe{
+	width: 30rem;
+	margin: 2rem 1rem 2rem 0;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
